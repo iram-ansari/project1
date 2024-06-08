@@ -1,0 +1,133 @@
+/* #video{
+    position:absolute;
+    min-width: 100%;
+    min-height: 100%;
+    bottom: 0;
+    right: 0;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,6);
+    bottom: 0;
+    left: 0;
+}
+.inner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+}
+h1{
+    color: aliceblue;
+    position: relative;
+} */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+  .container{
+    width: 100%;
+    height: 100vh;
+    /* background-color:rgba(0,0,0,4); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .content{
+    text-align: center;
+  }
+  .content h1{
+    font-size: 95px;
+    color: #fff;
+    margin-bottom: 50px;
+  }
+  .content h4{
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 50px;}
+    
+  .content a{
+    font-size: 23px;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #fff;
+    /* color: #000; */
+  }
+  .background-clip{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+  }
+
+   @media(min-aspect-ratio:16/9){
+    .background-clip{
+        width: 100%;
+        height: auto;
+    }
+   }
+
+   @media(max-aspect-ratio:16/9){
+    .background-clip{
+        height: 100%;
+        width: auto;
+    }
+   }
+   
+    #footer{
+      background-color: #2C2C2C;
+      color: antiquewhite;
+    }
+
+
+   
+
+
+    /* for dashboard */
+  /* styles.css */
+
+#slider{
+  /* background-color: rgb(144, 144, 240); */
+    background-image: url("https://img1.wallspic.com/attachments/originals/3/4/6/3/1/113643-graphics_processing_unit-design-monochrome-triangle-company-3840x2400.jpg");
+  height: 650px;
+}
+#img{
+  border-radius: 50%;
+  margin-top: 25px;
+  margin-left: 50px;
+  height: 100px;
+  width: 100px;
+}
+hr{
+  color: white;
+  
+}
+
+#main{
+  height: 20px;
+  width: 20px;
+  background-color: aquamarine;
+}
+#app{
+  height: 100px;
+  width: 180px;
+ 
+}
+#ff{
+  background-color: rgb(128, 128, 128);
+}
+ #pp{
+    height: 20px;
+    width: 20px;
+    background-color: #808080;
+  
+ }
+ 
+
+/* aaaaa */
+
+
